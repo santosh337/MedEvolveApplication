@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		164A9EB91CBF8B47001B26F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 164A9EB81CBF8B47001B26F5 /* main.m */; };
+		164A9EBC1CBF8B47001B26F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 164A9EBB1CBF8B47001B26F5 /* AppDelegate.m */; };
+		164A9EBF1CBF8B47001B26F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 164A9EBE1CBF8B47001B26F5 /* ViewController.m */; };
+		164A9EC21CBF8B47001B26F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164A9EC01CBF8B47001B26F5 /* Main.storyboard */; };
+		164A9EC41CBF8B47001B26F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164A9EC31CBF8B47001B26F5 /* Assets.xcassets */; };
+		164A9EC71CBF8B47001B26F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164A9EC51CBF8B47001B26F5 /* LaunchScreen.storyboard */; };
+		164A9ED21CBF8B47001B26F5 /* SwitchTitlesRemovableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 164A9ED11CBF8B47001B26F5 /* SwitchTitlesRemovableTests.m */; };
+		164A9EDD1CBF8B47001B26F5 /* SwitchTitlesRemovableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 164A9EDC1CBF8B47001B26F5 /* SwitchTitlesRemovableUITests.m */; };
+		164A9EED1CBF9A2D001B26F5 /* DetailedPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 164A9EEB1CBF9A2D001B26F5 /* DetailedPageViewController.m */; };
+		164A9EEE1CBF9A2D001B26F5 /* DetailedPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 164A9EEC1CBF9A2D001B26F5 /* DetailedPageViewController.xib */; };
+		164A9EF11CBFA56E001B26F5 /* DetailedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 164A9EF01CBFA56E001B26F5 /* DetailedCell.m */; };
+		16789DD21CCF3FCD00F02176 /* DMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 16789DC71CCF3FCD00F02176 /* DMKeychain.m */; };
+		16789DD31CCF3FCD00F02176 /* DMPasscode.m in Sources */ = {isa = PBXBuildFile; fileRef = 16789DC91CCF3FCD00F02176 /* DMPasscode.m */; };
+		16789DD41CCF3FCD00F02176 /* DMPasscodeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 16789DCB1CCF3FCD00F02176 /* DMPasscodeConfig.m */; };
+		16789DD51CCF3FCD00F02176 /* DMPasscodeInternalField.m in Sources */ = {isa = PBXBuildFile; fileRef = 16789DCD1CCF3FCD00F02176 /* DMPasscodeInternalField.m */; };
+		16789DD61CCF3FCD00F02176 /* DMPasscodeInternalNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16789DCF1CCF3FCD00F02176 /* DMPasscodeInternalNavigationController.m */; };
+		16789DD71CCF3FCD00F02176 /* DMPasscodeInternalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16789DD11CCF3FCD00F02176 /* DMPasscodeInternalViewController.m */; };
+		16789DD91CCF400200F02176 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16789DD81CCF400200F02176 /* LocalAuthentication.framework */; };
+		16789DDB1CCF400800F02176 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16789DDA1CCF400800F02176 /* Security.framework */; };
+		16A904401CD72E2C002C992B /* GreenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A9043F1CD72E2C002C992B /* GreenBackground.png */; };
+		16A904501CD79004002C992B /* onimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A9044E1CD79004002C992B /* onimage.png */; };
+		16A904521CD79018002C992B /* offImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 16A904511CD79018002C992B /* offImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		164A9ECE1CBF8B47001B26F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 164A9EAC1CBF8B47001B26F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164A9EB31CBF8B47001B26F5;
+			remoteInfo = SwitchTitlesRemovable;
+		};
+		164A9ED91CBF8B47001B26F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 164A9EAC1CBF8B47001B26F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 164A9EB31CBF8B47001B26F5;
+			remoteInfo = SwitchTitlesRemovable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		164A9EB41CBF8B47001B26F5 /* SwitchTitlesRemovable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchTitlesRemovable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		164A9EB81CBF8B47001B26F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		164A9EBA1CBF8B47001B26F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		164A9EBB1CBF8B47001B26F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		164A9EBD1CBF8B47001B26F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		164A9EBE1CBF8B47001B26F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		164A9EC11CBF8B47001B26F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		164A9EC31CBF8B47001B26F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		164A9EC61CBF8B47001B26F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		164A9EC81CBF8B47001B26F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164A9ECD1CBF8B47001B26F5 /* SwitchTitlesRemovableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchTitlesRemovableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		164A9ED11CBF8B47001B26F5 /* SwitchTitlesRemovableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchTitlesRemovableTests.m; sourceTree = "<group>"; };
+		164A9ED31CBF8B47001B26F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164A9ED81CBF8B47001B26F5 /* SwitchTitlesRemovableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchTitlesRemovableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		164A9EDC1CBF8B47001B26F5 /* SwitchTitlesRemovableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchTitlesRemovableUITests.m; sourceTree = "<group>"; };
+		164A9EDE1CBF8B47001B26F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164A9EEA1CBF9A2C001B26F5 /* DetailedPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedPageViewController.h; sourceTree = "<group>"; };
+		164A9EEB1CBF9A2D001B26F5 /* DetailedPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedPageViewController.m; sourceTree = "<group>"; };
+		164A9EEC1CBF9A2D001B26F5 /* DetailedPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedPageViewController.xib; sourceTree = "<group>"; };
+		164A9EEF1CBFA56E001B26F5 /* DetailedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedCell.h; sourceTree = "<group>"; };
+		164A9EF01CBFA56E001B26F5 /* DetailedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedCell.m; sourceTree = "<group>"; };
+		16789DC61CCF3FCD00F02176 /* DMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMKeychain.h; sourceTree = "<group>"; };
+		16789DC71CCF3FCD00F02176 /* DMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMKeychain.m; sourceTree = "<group>"; };
+		16789DC81CCF3FCD00F02176 /* DMPasscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPasscode.h; sourceTree = "<group>"; };
+		16789DC91CCF3FCD00F02176 /* DMPasscode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPasscode.m; sourceTree = "<group>"; };
+		16789DCA1CCF3FCD00F02176 /* DMPasscodeConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPasscodeConfig.h; sourceTree = "<group>"; };
+		16789DCB1CCF3FCD00F02176 /* DMPasscodeConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPasscodeConfig.m; sourceTree = "<group>"; };
+		16789DCC1CCF3FCD00F02176 /* DMPasscodeInternalField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPasscodeInternalField.h; sourceTree = "<group>"; };
+		16789DCD1CCF3FCD00F02176 /* DMPasscodeInternalField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPasscodeInternalField.m; sourceTree = "<group>"; };
+		16789DCE1CCF3FCD00F02176 /* DMPasscodeInternalNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPasscodeInternalNavigationController.h; sourceTree = "<group>"; };
+		16789DCF1CCF3FCD00F02176 /* DMPasscodeInternalNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPasscodeInternalNavigationController.m; sourceTree = "<group>"; };
+		16789DD01CCF3FCD00F02176 /* DMPasscodeInternalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPasscodeInternalViewController.h; sourceTree = "<group>"; };
+		16789DD11CCF3FCD00F02176 /* DMPasscodeInternalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMPasscodeInternalViewController.m; sourceTree = "<group>"; };
+		16789DD81CCF400200F02176 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		16789DDA1CCF400800F02176 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		16A9043F1CD72E2C002C992B /* GreenBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenBackground.png; sourceTree = "<group>"; };
+		16A9044E1CD79004002C992B /* onimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onimage.png; sourceTree = "<group>"; };
+		16A904511CD79018002C992B /* offImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		164A9EB11CBF8B47001B26F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16789DDB1CCF400800F02176 /* Security.framework in Frameworks */,
+				16789DD91CCF400200F02176 /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164A9ECA1CBF8B47001B26F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164A9ED51CBF8B47001B26F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		164A9EAB1CBF8B47001B26F5 = {
+			isa = PBXGroup;
+			children = (
+				16789DDA1CCF400800F02176 /* Security.framework */,
+				16789DD81CCF400200F02176 /* LocalAuthentication.framework */,
+				164A9EB61CBF8B47001B26F5 /* SwitchTitlesRemovable */,
+				164A9ED01CBF8B47001B26F5 /* SwitchTitlesRemovableTests */,
+				164A9EDB1CBF8B47001B26F5 /* SwitchTitlesRemovableUITests */,
+				164A9EB51CBF8B47001B26F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		164A9EB51CBF8B47001B26F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				164A9EB41CBF8B47001B26F5 /* SwitchTitlesRemovable.app */,
+				164A9ECD1CBF8B47001B26F5 /* SwitchTitlesRemovableTests.xctest */,
+				164A9ED81CBF8B47001B26F5 /* SwitchTitlesRemovableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		164A9EB61CBF8B47001B26F5 /* SwitchTitlesRemovable */ = {
+			isa = PBXGroup;
+			children = (
+				164A9EBA1CBF8B47001B26F5 /* AppDelegate.h */,
+				164A9EBB1CBF8B47001B26F5 /* AppDelegate.m */,
+				164A9EBD1CBF8B47001B26F5 /* ViewController.h */,
+				164A9EBE1CBF8B47001B26F5 /* ViewController.m */,
+				164A9EEA1CBF9A2C001B26F5 /* DetailedPageViewController.h */,
+				164A9EEB1CBF9A2D001B26F5 /* DetailedPageViewController.m */,
+				164A9EEC1CBF9A2D001B26F5 /* DetailedPageViewController.xib */,
+				164A9EEF1CBFA56E001B26F5 /* DetailedCell.h */,
+				164A9EF01CBFA56E001B26F5 /* DetailedCell.m */,
+				16A904511CD79018002C992B /* offImage.png */,
+				16A9044E1CD79004002C992B /* onimage.png */,
+				164A9EC01CBF8B47001B26F5 /* Main.storyboard */,
+				16A9043F1CD72E2C002C992B /* GreenBackground.png */,
+				164A9EC31CBF8B47001B26F5 /* Assets.xcassets */,
+				164A9EC51CBF8B47001B26F5 /* LaunchScreen.storyboard */,
+				164A9EC81CBF8B47001B26F5 /* Info.plist */,
+				164A9EB71CBF8B47001B26F5 /* Supporting Files */,
+			);
+			path = SwitchTitlesRemovable;
+			sourceTree = "<group>";
+		};
+		164A9EB71CBF8B47001B26F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16789DC61CCF3FCD00F02176 /* DMKeychain.h */,
+				16789DC71CCF3FCD00F02176 /* DMKeychain.m */,
+				16789DC81CCF3FCD00F02176 /* DMPasscode.h */,
+				16789DC91CCF3FCD00F02176 /* DMPasscode.m */,
+				16789DCA1CCF3FCD00F02176 /* DMPasscodeConfig.h */,
+				16789DCB1CCF3FCD00F02176 /* DMPasscodeConfig.m */,
+				16789DCC1CCF3FCD00F02176 /* DMPasscodeInternalField.h */,
+				16789DCD1CCF3FCD00F02176 /* DMPasscodeInternalField.m */,
+				16789DCE1CCF3FCD00F02176 /* DMPasscodeInternalNavigationController.h */,
+				16789DCF1CCF3FCD00F02176 /* DMPasscodeInternalNavigationController.m */,
+				16789DD01CCF3FCD00F02176 /* DMPasscodeInternalViewController.h */,
+				16789DD11CCF3FCD00F02176 /* DMPasscodeInternalViewController.m */,
+				164A9EB81CBF8B47001B26F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		164A9ED01CBF8B47001B26F5 /* SwitchTitlesRemovableTests */ = {
+			isa = PBXGroup;
+			children = (
+				164A9ED11CBF8B47001B26F5 /* SwitchTitlesRemovableTests.m */,
+				164A9ED31CBF8B47001B26F5 /* Info.plist */,
+			);
+			path = SwitchTitlesRemovableTests;
+			sourceTree = "<group>";
+		};
+		164A9EDB1CBF8B47001B26F5 /* SwitchTitlesRemovableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				164A9EDC1CBF8B47001B26F5 /* SwitchTitlesRemovableUITests.m */,
+				164A9EDE1CBF8B47001B26F5 /* Info.plist */,
+			);
+			path = SwitchTitlesRemovableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		164A9EB31CBF8B47001B26F5 /* SwitchTitlesRemovable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164A9EE11CBF8B47001B26F5 /* Build configuration list for PBXNativeTarget "SwitchTitlesRemovable" */;
+			buildPhases = (
+				164A9EB01CBF8B47001B26F5 /* Sources */,
+				164A9EB11CBF8B47001B26F5 /* Frameworks */,
+				164A9EB21CBF8B47001B26F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchTitlesRemovable;
+			productName = SwitchTitlesRemovable;
+			productReference = 164A9EB41CBF8B47001B26F5 /* SwitchTitlesRemovable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		164A9ECC1CBF8B47001B26F5 /* SwitchTitlesRemovableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164A9EE41CBF8B47001B26F5 /* Build configuration list for PBXNativeTarget "SwitchTitlesRemovableTests" */;
+			buildPhases = (
+				164A9EC91CBF8B47001B26F5 /* Sources */,
+				164A9ECA1CBF8B47001B26F5 /* Frameworks */,
+				164A9ECB1CBF8B47001B26F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				164A9ECF1CBF8B47001B26F5 /* PBXTargetDependency */,
+			);
+			name = SwitchTitlesRemovableTests;
+			productName = SwitchTitlesRemovableTests;
+			productReference = 164A9ECD1CBF8B47001B26F5 /* SwitchTitlesRemovableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		164A9ED71CBF8B47001B26F5 /* SwitchTitlesRemovableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164A9EE71CBF8B47001B26F5 /* Build configuration list for PBXNativeTarget "SwitchTitlesRemovableUITests" */;
+			buildPhases = (
+				164A9ED41CBF8B47001B26F5 /* Sources */,
+				164A9ED51CBF8B47001B26F5 /* Frameworks */,
+				164A9ED61CBF8B47001B26F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				164A9EDA1CBF8B47001B26F5 /* PBXTargetDependency */,
+			);
+			name = SwitchTitlesRemovableUITests;
+			productName = SwitchTitlesRemovableUITests;
+			productReference = 164A9ED81CBF8B47001B26F5 /* SwitchTitlesRemovableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		164A9EAC1CBF8B47001B26F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = pressmartmac;
+				TargetAttributes = {
+					164A9EB31CBF8B47001B26F5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					164A9ECC1CBF8B47001B26F5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 164A9EB31CBF8B47001B26F5;
+					};
+					164A9ED71CBF8B47001B26F5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 164A9EB31CBF8B47001B26F5;
+					};
+				};
+			};
+			buildConfigurationList = 164A9EAF1CBF8B47001B26F5 /* Build configuration list for PBXProject "SwitchTitlesRemovable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 164A9EAB1CBF8B47001B26F5;
+			productRefGroup = 164A9EB51CBF8B47001B26F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				164A9EB31CBF8B47001B26F5 /* SwitchTitlesRemovable */,
+				164A9ECC1CBF8B47001B26F5 /* SwitchTitlesRemovableTests */,
+				164A9ED71CBF8B47001B26F5 /* SwitchTitlesRemovableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		164A9EB21CBF8B47001B26F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164A9EC71CBF8B47001B26F5 /* LaunchScreen.storyboard in Resources */,
+				16A904401CD72E2C002C992B /* GreenBackground.png in Resources */,
+				164A9EC41CBF8B47001B26F5 /* Assets.xcassets in Resources */,
+				164A9EC21CBF8B47001B26F5 /* Main.storyboard in Resources */,
+				16A904501CD79004002C992B /* onimage.png in Resources */,
+				164A9EEE1CBF9A2D001B26F5 /* DetailedPageViewController.xib in Resources */,
+				16A904521CD79018002C992B /* offImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164A9ECB1CBF8B47001B26F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164A9ED61CBF8B47001B26F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		164A9EB01CBF8B47001B26F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16789DD51CCF3FCD00F02176 /* DMPasscodeInternalField.m in Sources */,
+				16789DD61CCF3FCD00F02176 /* DMPasscodeInternalNavigationController.m in Sources */,
+				16789DD71CCF3FCD00F02176 /* DMPasscodeInternalViewController.m in Sources */,
+				16789DD31CCF3FCD00F02176 /* DMPasscode.m in Sources */,
+				16789DD21CCF3FCD00F02176 /* DMKeychain.m in Sources */,
+				164A9EBF1CBF8B47001B26F5 /* ViewController.m in Sources */,
+				164A9EBC1CBF8B47001B26F5 /* AppDelegate.m in Sources */,
+				164A9EB91CBF8B47001B26F5 /* main.m in Sources */,
+				164A9EED1CBF9A2D001B26F5 /* DetailedPageViewController.m in Sources */,
+				16789DD41CCF3FCD00F02176 /* DMPasscodeConfig.m in Sources */,
+				164A9EF11CBFA56E001B26F5 /* DetailedCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164A9EC91CBF8B47001B26F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164A9ED21CBF8B47001B26F5 /* SwitchTitlesRemovableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		164A9ED41CBF8B47001B26F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164A9EDD1CBF8B47001B26F5 /* SwitchTitlesRemovableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		164A9ECF1CBF8B47001B26F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 164A9EB31CBF8B47001B26F5 /* SwitchTitlesRemovable */;
+			targetProxy = 164A9ECE1CBF8B47001B26F5 /* PBXContainerItemProxy */;
+		};
+		164A9EDA1CBF8B47001B26F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 164A9EB31CBF8B47001B26F5 /* SwitchTitlesRemovable */;
+			targetProxy = 164A9ED91CBF8B47001B26F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		164A9EC01CBF8B47001B26F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164A9EC11CBF8B47001B26F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		164A9EC51CBF8B47001B26F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				164A9EC61CBF8B47001B26F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		164A9EDF1CBF8B47001B26F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		164A9EE01CBF8B47001B26F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		164A9EE21CBF8B47001B26F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = SwitchTitlesRemovable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pml.SwitchTitlesRemovable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		164A9EE31CBF8B47001B26F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = SwitchTitlesRemovable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pml.SwitchTitlesRemovable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		164A9EE51CBF8B47001B26F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchTitlesRemovableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pml.SwitchTitlesRemovableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchTitlesRemovable.app/SwitchTitlesRemovable";
+			};
+			name = Debug;
+		};
+		164A9EE61CBF8B47001B26F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwitchTitlesRemovableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pml.SwitchTitlesRemovableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchTitlesRemovable.app/SwitchTitlesRemovable";
+			};
+			name = Release;
+		};
+		164A9EE81CBF8B47001B26F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwitchTitlesRemovableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pml.SwitchTitlesRemovableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwitchTitlesRemovable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		164A9EE91CBF8B47001B26F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwitchTitlesRemovableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pml.SwitchTitlesRemovableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwitchTitlesRemovable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		164A9EAF1CBF8B47001B26F5 /* Build configuration list for PBXProject "SwitchTitlesRemovable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164A9EDF1CBF8B47001B26F5 /* Debug */,
+				164A9EE01CBF8B47001B26F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		164A9EE11CBF8B47001B26F5 /* Build configuration list for PBXNativeTarget "SwitchTitlesRemovable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164A9EE21CBF8B47001B26F5 /* Debug */,
+				164A9EE31CBF8B47001B26F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		164A9EE41CBF8B47001B26F5 /* Build configuration list for PBXNativeTarget "SwitchTitlesRemovableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164A9EE51CBF8B47001B26F5 /* Debug */,
+				164A9EE61CBF8B47001B26F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		164A9EE71CBF8B47001B26F5 /* Build configuration list for PBXNativeTarget "SwitchTitlesRemovableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				164A9EE81CBF8B47001B26F5 /* Debug */,
+				164A9EE91CBF8B47001B26F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 164A9EAC1CBF8B47001B26F5 /* Project object */;
+}
